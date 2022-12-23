@@ -35,6 +35,7 @@ fun ChatScreen(chatScreenViewModel: ChatScreenViewModel) {
                     .padding(10.dp)
             )
         }
+
         Button(onClick = {
             chatScreenViewModel.addChatMessage(chatMessage)
         }) {
