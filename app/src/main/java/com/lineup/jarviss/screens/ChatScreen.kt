@@ -20,6 +20,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.lineup.jarviss.R
@@ -148,7 +149,7 @@ fun AddProfileDetails() {
             contentDescription = "profile image",
             modifier = Modifier
                 .padding(end = 15.dp)
-                .size( 90.dp)
+                .size(90.dp)
                 .clip(CircleShape)
                 .border(
                     border = BorderStroke(
